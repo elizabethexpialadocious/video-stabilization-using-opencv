@@ -87,12 +87,20 @@
             <version>1.9.0</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.openpnp/opencv -->
+        <!-- https://mvnrepository.com/artifact/org.openpnp/opencv
         <dependency>
             <groupId>org.openpnp</groupId>
             <artifactId>opencv</artifactId>
             <version>4.7.0-0</version>
         </dependency>
+        -->
+
+        <dependency>
+            <groupId>org.bytedeco</groupId>
+            <artifactId>opencv-platform</artifactId>
+            <version>4.7.0-1.5.9</version>
+        </dependency>
+
 
 
     </dependencies>
